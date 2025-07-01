@@ -8,7 +8,9 @@ Step-by-Step Guide to Run Stock Portfolio Tracker
 Install Python Make sure you have Python 3.7 or higher installed.
 Download and install Python from: https://www.python.org/downloads/
 Verify installation by running: python --version or python3 --version
+
 Get the Project Files
+
 Clone the GitHub repository if available: git clone https://github.com/yourusername/stock-portfolio-tracker.git cd stock-portfolio-tracker
 Or download the project files manually and navigate to the folder in your terminal.
 Create and Activate a Virtual Environment (Optional but recommended)
