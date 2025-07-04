@@ -3,16 +3,15 @@ import random
 # List of words to choose from
 word_list = ['python', 'hangman', 'challenge', 'programming', 'developer']
 
-# Choose a random word from the list
+
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
-# Display settings
 display = ['_'] * word_length
 lives = 6
 guessed_letters = []
 
-# Hangman stages (for visual effect)
+
 stages = [
     '''
       +---+
@@ -75,7 +74,7 @@ stages = [
 
 print("Welcome to Hangman!")
 
-# Game loop
+
 while lives > 0 and '_' in display:
     guess = input("Guess a letter: ").lower()
 
@@ -98,7 +97,7 @@ while lives > 0 and '_' in display:
     print("Word: ", ' '.join(display))
     print("Guessed letters:", ', '.join(guessed_letters))
 
-# Game result
+
 if '_' not in display:
     print("🎉 Congratulations! You guessed the word correctly!")
 else:
